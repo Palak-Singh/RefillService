@@ -1334,23 +1334,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\877666\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\PALAK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\877666\\source\\repos\\Final Project\\Deployments\\RefillMicroservice\\MailOrderPharmacy_RefillService\\MailOrderPharmacy_RefillService.csproj",
+      "projectUniqueName": "C:\\Users\\PALAK\\Downloads\\RefillMicroservice\\MailOrderPharmacy_RefillService\\MailOrderPharmacy_RefillService.csproj",
       "projectName": "MailOrderPharmacy_RefillService",
-      "projectPath": "C:\\Users\\877666\\source\\repos\\Final Project\\Deployments\\RefillMicroservice\\MailOrderPharmacy_RefillService\\MailOrderPharmacy_RefillService.csproj",
-      "packagesPath": "C:\\Users\\877666\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\877666\\source\\repos\\Final Project\\Deployments\\RefillMicroservice\\MailOrderPharmacy_RefillService\\obj\\",
+      "projectPath": "C:\\Users\\PALAK\\Downloads\\RefillMicroservice\\MailOrderPharmacy_RefillService\\MailOrderPharmacy_RefillService.csproj",
+      "packagesPath": "C:\\Users\\PALAK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PALAK\\Downloads\\RefillMicroservice\\MailOrderPharmacy_RefillService\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\877666\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PALAK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1362,7 +1358,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1374,7 +1369,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
@@ -1419,7 +1413,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
