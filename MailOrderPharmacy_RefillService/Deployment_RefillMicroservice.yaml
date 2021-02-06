@@ -8,15 +8,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: RefillMicroservice  
+      app: MailOrderPharmacy_RefillService  
   template:
     metadata:
       labels:
         app: RefillMicroservice
     spec:
       containers:
-      - name: refillmicroservice
-        image: mailorderpharmacyncr.azurecr.io/refillmicroserviceimage:latest
+      - name: mailorderpharmacy_refillservice
+        image: myfirstazurecr.azurecr.io/orderitemapiimage:Latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -25,10 +25,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: refillmicroservicesvc
+  name: mailorderpharmacy_refillservicevc
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: RefillMicroservice
+    app: MailOrderPharmacy_RefillService
