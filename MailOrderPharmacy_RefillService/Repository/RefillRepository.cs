@@ -57,7 +57,7 @@ namespace MailOrderPharmacy_RefillService.Repository
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", RefillHelper.SessionToken);
 
-                client.BaseAddress = new Uri("http://52.185.71.171/api/");//Target Web Api
+                client.BaseAddress = new Uri("https://subscriptionms.azurewebsites.net/api/");//Target Web Api
 
                 var responseTask = client.GetAsync("Subscribe/GetSubscriptionDetails/" + refilldue.SubscriptionId);
 
@@ -163,7 +163,7 @@ namespace MailOrderPharmacy_RefillService.Repository
             using (var client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", RefillHelper.SessionToken);
-                client.BaseAddress = new Uri("http://52.230.228.30/api/");//Target Web Api
+                client.BaseAddress = new Uri("https://drugmicroservice.azurewebsites.net/api/");//Target Web Api
 
                 var responseTask = client.GetAsync("DrugsApi/SearchDrugsById/" + detail.DrugId);
 
